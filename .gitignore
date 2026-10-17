@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded datasets
+data/
+
+# Trained models and checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Logs and experiment outputs
+logs/
+runs/
